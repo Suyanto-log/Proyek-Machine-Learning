@@ -37,3 +37,44 @@ git clone https://github.com/<username>/<repo-name>.git
 cd <repo-name>
 pip install -r requirements.txt
 streamlit run app_analisis_transaksi.py
+
+## 📂 Struktur Folder
+📁 Analisis-Transaksi
+│
+├── app_analisis_transaksi.py     # Aplikasi utama Streamlit
+├── requirements.txt              # Daftar dependensi
+├── data_clustering.csv           # Hasil clustering (otomatis dibuat)
+├── decision_tree_model.h5        # Model Decision Tree
+├── random_forest_model.h5        # Model Random Forest
+├── tuned_classification_model.h5 # Model hasil tuning
+└── README.md                     # Dokumentasi proyek
+
+
+## 🧩 Requirements
+scikit-learn==1.5.2
+yellowbrick==1.5
+streamlit
+pandas
+numpy
+matplotlib
+seaborn
+joblib
+
+## 🌐 Demo
+streamlit run app_analisis_transaksi.py
+
+## 🏁 Tujuan
+Memberikan sistem analisis transaksi yang:
+Mudah digunakan oleh pengguna non-teknis.
+Mendeteksi pola transaksi mencurigakan secara otomatis.
+Menyediakan visualisasi interaktif untuk eksplorasi data.
+
+## 📜 Lisensi
+Proyek ini dilisensikan di bawah MIT License.
+
+## ✨ Kontributor
+Suyanto — Data Scientist & Developer
+
+Terima kasih kepada komunitas open-source atas pustaka yang digunakan.
+
+
