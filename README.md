@@ -36,7 +36,13 @@ Dibangun menggunakan **Streamlit**, **Scikit-learn**, dan **Yellowbrick**, aplik
 git clone https://github.com/<username>/<repo-name>.git
 cd <repo-name>
 pip install -r requirements.txt
-streamlit run app_analisis_transaksi.py
+python -m streamlit run app_analisis_transaksi.py
+
+## ✅ Rekomendasi
+Gunakan Python 3.10–3.13 untuk menjalankan proyek ini dengan lancar.
+Versi ini telah diuji dan mendukung seluruh pustaka yang digunakan tanpa konflik dependensi.
+
+---
 
 ## 📂 Struktur Folder
 📁 Analisis-Transaksi
