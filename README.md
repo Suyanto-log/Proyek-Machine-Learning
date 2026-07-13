@@ -31,6 +31,22 @@ Dibangun menggunakan **Streamlit**, **Scikit-learn**, dan **Yellowbrick**, aplik
 
 ---
 
+## ⚠️ Catatan Kompatibilitas Versi
+Penting:  
+Proyek ini menggunakan kombinasi pustaka yang stabil dan telah diuji untuk versi tertentu.
+Versi terbaru beberapa pustaka (khususnya yellowbrick dan scikit-learn) memiliki perubahan internal yang menyebabkan ketidakcocokan dengan Python versi terbaru (misalnya 3.14).
+
+## 🧩 Penjelasan Teknis
+Yellowbrick 1.6 belum tersedia di repositori resmi PyPI.
+Yellowbrick 1.5 adalah versi terakhir yang stabil, tetapi belum mendukung penuh Python ≥ 3.14.
+Perubahan pada scikit-learn (seperti parameter n_init='auto' di KMeans) membuat yellowbrick versi lama gagal mengenali estimator clustering.
+Solusi yang digunakan adalah menyesuaikan versi agar kompatibel:
+pip uninstall yellowbrick scikit-learn
+pip install scikit-learn==1.5.2
+pip install yellowbrick==1.5
+
+---
+
 ## ⚙️ Instalasi
 ```bash
 git clone https://github.com/<username>/<repo-name>.git
