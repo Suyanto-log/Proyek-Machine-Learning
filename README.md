@@ -31,6 +31,13 @@ Dibangun menggunakan **Streamlit**, **Scikit-learn**, dan **Yellowbrick**, aplik
 
 ---
 
+## ⚠️ Catatan Kompatibilitas
+- Gunakan Python 3.10–3.11 untuk stabilitas.
+- Pastikan `requirements.txt` mencantumkan `scikit-learn` (bukan `sklearn`).
+- Yellowbrick versi stabil: 1.5 (belum mendukung penuh Python 3.14).
+
+---
+
 ## 🚀 Deployment
 
 Aplikasi ini berbasis Streamlit (Python).  
@@ -41,7 +48,6 @@ Untuk hosting, gunakan salah satu opsi berikut:
 - **Docker + Cloud Run** → untuk integrasi dengan platform lain.
 
 ⚠️ Catatan: Vercel tidak mendukung Streamlit secara langsung karena berbasis Node.js.
-
 
 ---
 ## ⚠️ Catatan Kompatibilitas Versi
