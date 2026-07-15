@@ -31,6 +31,19 @@ Dibangun menggunakan **Streamlit**, **Scikit-learn**, dan **Yellowbrick**, aplik
 
 ---
 
+## 🚀 Deployment
+
+Aplikasi ini berbasis Streamlit (Python).  
+Untuk hosting, gunakan salah satu opsi berikut:
+
+- **Streamlit Cloud** → paling mudah, cukup hubungkan repo GitHub.  
+- **Render / Railway / Heroku** → jalankan dengan Procfile.  
+- **Docker + Cloud Run** → untuk integrasi dengan platform lain.
+
+⚠️ Catatan: Vercel tidak mendukung Streamlit secara langsung karena berbasis Node.js.
+
+
+---
 ## ⚠️ Catatan Kompatibilitas Versi
 Penting:  
 Proyek ini menggunakan kombinasi pustaka yang stabil dan telah diuji untuk versi tertentu.
