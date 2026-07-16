@@ -102,7 +102,10 @@ seaborn
 joblib
 
 ## 🌐 Demo
-streamlit run app_analisis_transaksi.py
+Aplikasi ini dapat diakses langsung di:  
+👉 [project-dbs.streamlit.app](https://project-dbs.streamlit.app/)
+atau run (CMD) di localhost :
+👉 python streamlit run app_analisis_transaksi.py
 
 ## 🏁 Tujuan
 Memberikan sistem analisis transaksi yang:
