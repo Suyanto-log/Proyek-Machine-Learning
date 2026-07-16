@@ -179,7 +179,7 @@ def proses_klasifikasi():
 # TAMPILAN APLIKASI
 # =======================
 
-st.title("💳 Aplikasi Analisis Transaksi: Clustering & Klasifikasi")
+st.title("💳 Aplikasi Analisis Transaksi:     Clustering & Klasifikasi")
 st.markdown("Sistem lengkap: Mulai dari pengelompokan otomatis hingga prediksi kecerdasan buatan.")
 
 # Sidebar Menu
