@@ -372,7 +372,7 @@ if menu == "🤖 Model Klasifikasi":
         tab1, tab2, tab3 = st.tabs(["🌳 Decision Tree", "🌲 Random Forest", "⚙️ Decision Tree + Tuning"])
 
         with tab1:
-            st.subheader("Pohon Keputusan")
+            st.subheader("Decision Tree")
             report_dict = st.session_state['report_dt_dict']
             df_report = pd.DataFrame(report_dict).transpose().round(2)
             df_report = df_report.reset_index()
@@ -382,7 +382,7 @@ if menu == "🤖 Model Klasifikasi":
             st.code(st.session_state['report_dt_text'], language='text')
 
         with tab2:
-            st.subheader("Hutan Acak")
+            st.subheader("Random Forest")
             report_dict = st.session_state['report_rf_dict']
             df_report = pd.DataFrame(report_dict).transpose().round(2)
             df_report = df_report.reset_index()
@@ -392,7 +392,7 @@ if menu == "🤖 Model Klasifikasi":
             st.code(st.session_state['report_rf_text'], language='text')
 
         with tab3:
-            st.subheader("Model Dioptimalkan")
+            st.subheader("Decision Tree + Tuning")
             report_dict = st.session_state['report_tuned_dict']
             df_report = pd.DataFrame(report_dict).transpose().round(2)
             df_report = df_report.reset_index()
